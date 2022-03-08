@@ -1,0 +1,112 @@
+body {
+	font-family: "Heebo", sans-serif;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+#button {
+	background-color: #319234;
+	border-radius: 8px;
+	color: rgba(255, 255, 255, 0.945);
+	border: none;
+	padding: 10px 20px;
+	position: absolute;
+	top: 73%;
+	left: -105%;
+}
+
+#input {
+	border: none;
+	border-radius: 8px;
+	width: 110%;
+	height: 13%;
+	position: absolute;
+	top: 70%;
+	left: -190%;
+}
+
+#city {
+	position: relative;
+	top: 12%;
+	color: white;
+	font-size: larger;
+	font-weight: 700;
+}
+
+#country {
+	position: relative;
+	top: 11%;
+	color: rgba(255, 255, 255, 0.671);
+}
+
+#dateAndTime {
+	position: relative;
+	top: 13%;
+	color: rgba(255, 255, 255, 0.671);
+}
+
+#temperature {
+	position: relative;
+	top: 15%;
+	color: white;
+	font-size: 400%;
+	font-weight: 950;
+}
+
+#condition {
+	position: relative;
+	top: 12%;
+	color: white;
+	font-size: large;
+}
+
+#precipitation {
+	position: absolute;
+	top: 63%;
+	right: 67%;
+	color: white;
+}
+
+#humidity {
+	position: absolute;
+	top: 63%;
+	right: 39%;
+	color: white;
+}
+
+#wind {
+	position: absolute;
+	top: 63%;
+	right: 10%;
+	color: white;
+}
+#time1 {
+	position: absolute;
+	color: white;
+	right: 75%;
+	top: 85%;
+}
+#time2 {
+	position: absolute;
+	color: white;
+	right: 55%;
+	top: 85%;
+}
+#time3 {
+	position: absolute;
+	color: white;
+	right: 35%;
+	top: 85%;
+}
+#time4 {
+	position: absolute;
+	color: white;
+	right: 15%;
+	top: 85%;
+}
